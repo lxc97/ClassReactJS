@@ -91,6 +91,18 @@
     outline: none;
     border: 0;
 }
+input[type="file"] {
+    display: none;
+}
+.row div.upload {
+    margin-right: 28px;
+}
+.upload label.camera-icon i{
+    font-size: 25px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+}
 .form-radio {
     width: 175px;
     height: 30px;
