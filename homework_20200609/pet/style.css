@@ -72,8 +72,10 @@
     padding: 45px 60px 0;
     margin-bottom: 50px;
 }
-h1 {
+.content-form > p {
     margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .row-title {
     padding-bottom: 50px;
@@ -108,18 +110,18 @@ h1 {
     transform: translate(-50% , -50%);
     text-align: center;
 }
-.form-radio-content label{
+.form-radio-content label {
     display: inline-block;
     padding: 4px 15px;
     border-radius: 3px;
 }
-.form-input:checked + .form-label{
+.form-input:checked + .form-label {
     background: #fbb2ac;
 }
-.gender-content label{
+.gender-content label {
     padding: 4px 22px;
 }
-.weight-content label{
+.weight-content label {
     padding: 4px 24px;
 }
 .weight {
