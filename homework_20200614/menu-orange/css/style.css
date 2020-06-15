@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #bfbfbf;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    width: 100%;
+}
+.container .header p,
+.container .header h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #e7e5da;
+}
+.container .header p a {
+    color: #3e38c1;
+}
+.menu {
+    width: 940px;
+    margin: 0 auto;
+    background-color: #fe8050;
+    margin-top: 20px;
+}
+.menu ul {
+    display: inline-block;
+}
+.menu ul:nth-child(1) {
+    float: left;
+}
+.menu ul:nth-child(2) {
+    float: right;
+}
+.menu ul a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #e7e5da;
+    padding: 6px 10px;
+}
+.menu ul a.active {
+    background: #444444;
+}
+.menu ul a:hover {
+    background: #444444;
+}
