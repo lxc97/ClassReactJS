@@ -30,6 +30,9 @@ body {
 .menu ul {
     display: inline-block;
 }
+.menu ul.content-left a {
+    float: left;
+}
 .menu ul:nth-child(1) {
     float: left;
 }

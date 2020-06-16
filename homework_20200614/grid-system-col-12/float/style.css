@@ -5,7 +5,7 @@
 .clearfix {
     clear: both;
 }
-.container {
+.container .row {
     width: 960px;
     margin: 0 auto;
 }
