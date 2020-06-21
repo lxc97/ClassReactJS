@@ -1,2 +1,0 @@
-# ClassReactJS
-Lớp học ReactJS
